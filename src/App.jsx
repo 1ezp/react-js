@@ -1,10 +1,9 @@
-import ComponentA from "./ComponentA.jsx";
-
+import Ref from "./Ref";
 function App() {
 
 	return (
 		<>
-			<ComponentA/>
+			<Ref/>
 		</>
 	);
 }

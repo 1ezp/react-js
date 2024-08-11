@@ -153,3 +153,50 @@ ol li{
     border: 3px solid black;
     padding: 5px;
 }
+
+.stopwatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 28%);
+    margin-bottom: 10px;
+}
+.controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.start-btn{
+    background-color: rgb(58, 124, 212);
+}
+.start-btn:hover{
+    background-color: hsl(214, 78%, 36%);
+}
+.stop-btn{
+    background-color: rgb(212, 58, 58);
+}
+.stop-btn:hover{
+    background-color: hsl(0, 93%, 39%);
+}
+.reset-btn{
+    background-color: rgb(58, 212, 58);
+}
+.reset-btn:hover{
+    background-color: hsl(120, 100%, 40%);
+}
